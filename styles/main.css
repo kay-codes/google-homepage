@@ -57,9 +57,24 @@ main{
  
     
 }
+.button{
+   background-color:blue; 
+   color:white;
+   border:1px solid;
+   border-radius:20px;
+   padding:5px;
+}
 .searchbox{
-    border: 3px gray solid;
+    border: 1px lightgray solid;
+    border-radius: 20px;
+  padding:12px;
+  width:600px;
+  outline:none;
+}
+.searchbox:hover{
+   box-shadow:0 1px 6px 0 rgba(32, 33, 36, 0.28); ;
 }
 footer{
     background-color: gray;
 }
+
